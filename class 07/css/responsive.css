@@ -1,0 +1,225 @@
+    /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .nav-bar{
+        height: auto;
+    }
+    .banner{
+        padding: 30px 0;
+    }
+    .banner .col-md-6{
+        width: 100%;
+
+    }
+    .img-position{
+        display: none;
+    }
+    .Leaf{
+        display: none;
+    }
+    .pata{
+        display: none;
+    }
+    .banner .banner-content .title2 p{
+        text-align: center;
+    }
+    .banner .banner-content .offer p{
+        text-align: center;
+    }
+    .banner .banner-content {
+        height: auto;
+        display: block;
+    }
+    .img{
+        max-width: 100%;
+    }
+    .flower {
+        top: 30rem;
+    }
+    .slider-card{
+        margin: 50px 0 0 0;
+    }
+    .slider-card .p-4{
+        padding: 0 10px !important;
+    }
+    .position-text1 p {
+        font-size: 17px;
+    }
+    .position-text1 h3 {
+        font-size: 28px;
+    }
+    .position-text1{
+        top: 27px;   
+        left: 35px;
+    }
+    .position-text2 p {
+        font-size: 15px;
+    }
+    .img-margin {
+        margin-top: 18px;
+    }
+    .position-text2 h4{
+        font-size: 20px;
+    }
+    .position-text3 p {
+        font-size: 15px;
+    }
+    .position-text3 h4 {
+        font-size: 20px;
+    }
+    .position-text3 {
+        top: 30px;
+        left: 22px;
+    }
+    .form-edit button{
+        width: 22rem;
+    }
+    .footer-section{
+        height: 69vh;
+    }
+    .footer-text p {
+        padding-right: 70px;
+    }
+    .footer-section .footer-info-bar i {
+        font-size: 25px;
+    }
+    .copyright-section {
+        padding: 59px 0;
+    }
+    .footer-section .col-md-11 p {
+        font-size: 16px;
+    }
+    .copyright-section .col-md-5 ul li{
+        margin-left: 5px;
+    }
+  }
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .container-fluid{
+        padding-left: 0 !important;
+
+    }
+    .navbar-nav{
+        text-align: right !important;
+    }
+    .navbar-brand{
+        margin-right: 0 !important;
+    }
+    .logo{
+        width: 80%;
+    }
+    .delevery .col-md-11 {
+        width: 80%;
+    }
+    .delevery .col-md-1{
+        width: 20%;
+    }
+    .nav-bar{
+        height: auto;
+    }
+    .Leaf{
+        display: none;
+    }
+    .pata{
+        display: none;
+    }
+    .img-position{
+        display: none;
+    }
+    .flower{
+        display: none;
+    }
+    .banner .banner-content .title2 p {
+        text-align: center;
+    }
+    .banner .banner-content .offer p{
+        text-align: center;
+    }
+    .banner .banner-content .line{
+        width: auto;
+    }
+    .order-header-text h1 {
+        font-size: 40px;
+    }
+    .order-header-text p{
+        padding: 0;
+    }
+    .order-product{
+        padding-bottom: 40px;
+    }
+    .order{
+        padding: 30px 0;
+        margin: 0 !important;
+    }
+    #slider{
+        padding: 0 !important;
+    }
+    .upcoming-event {
+        padding: 50px 0;
+    }
+    .position-img {
+        padding-bottom: 30px;
+    }
+    .position-text1 h3 {
+        font-size: 27px;
+    }
+    .position-text1 p {
+        font-size: 17px;
+    }  
+    .position-text2 p {
+        font-size: 15px;
+    }  
+    .position-text2 h4 {
+        font-size: 20px;
+    }
+    .position-text3 p {
+        font-size: 17px;
+    }
+    .position-text3 h4 {
+        font-size: 21px;
+    }
+    .position-text1 {
+        top: 22px;
+        left: 33px;
+    }    
+    .position-text2{
+        top: 10px;
+        left: 31px;
+    }
+    .position-text3{
+        top: 46px;
+        left: 18px;
+    }
+    .form-text{
+        padding: 0;
+    }
+    .footer-text p{
+        padding: 0;
+        text-align: center;
+    }
+    .footer-section .footer-info-bar {
+        text-align: center !important;
+    }
+    .footer-section .col-md-11 p{
+        text-align: center !important;
+    }
+    .copyright-section {
+        padding: 0;
+        text-align: center;  
+    }
+    .copyright-section .col-md-7 p {
+        font-size: 13px;
+    }
+    .copyright-section .col-md-5 ul li{
+        margin: 0 10px;
+    }
+    .copyright-section .col-md-5 ul{
+        padding-left: 0;
+    }
+  }

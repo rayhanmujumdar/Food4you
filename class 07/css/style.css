@@ -1,0 +1,418 @@
+/* font-family: 'Fredericka the Great', cursive;
+font-family: 'Gabriela', serif;
+font-family: 'Montserrat', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Gabriela&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+/* nav-bar section start from here */
+.nav-bar{
+    width: 100%;
+    background-image: url(../img/background.png);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+header{
+    background-color: #ffe001;
+}
+.sticky{
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    background-color: #ffe001;
+}
+.img-position{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.img-position img{
+    height: 100vh;
+}
+.delevery .col-md-11 .title{
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.delevery .col-md-11 .number{
+    font-weight: bold;
+    font-size: 25px;
+    vertical-align: middle;
+}
+.delevery .col-md-11{
+    vertical-align: middle;
+}
+.delevery .col-md-2{
+    vertical-align: middle;
+}
+/* navbar section css start from here */
+.navbar{
+    padding: 0 !important;
+}
+.nav-item{
+    padding-left: 55px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/* bannar section start from here */
+.banner{
+    position: relative;
+}
+.banner .banner-content{
+    display: table-cell;
+    height: 700px;
+    vertical-align: middle;
+}
+.banner .banner-content h3{
+    font-family: 'Gabriela', serif;
+    font-size: 40px;
+}
+.banner .banner-content h1{
+    font-size: 100px;
+    font-family: 'Fredericka the Great', cursive;
+    text-transform: uppercase;
+}
+.banner .banner-content .title1{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+}
+.banner .banner-content .line{
+    height: 2px;
+    width: 500px;
+    background-color: #ddc201;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.banner .banner-content .title2 p{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 20px;
+    text-align: right;
+}
+.banner .banner-content .offer p{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 40px;
+    text-align: left;
+}
+.banner .banner-content button{
+    background: transparent;
+    border: 1px solid black;
+    padding: 12px 40px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin: 20px 0;
+    transition: 0.5s;
+}
+.banner .banner-content button:hover{
+    background-color: green;
+    color: white;
+    transition: 0.5s;
+    border: none;
+}
+/* banner section end from here */
+/* ======================================
+  banner  position section start from here.
+=========================================-*/
+.flower{
+    position: absolute;
+    top: 43rem;
+}
+.Leaf{
+    position: absolute;
+    top: 9rem;
+    left: 21rem;
+}
+.pata{
+    position: absolute;
+    right: 17rem;
+    bottom: 13rem;
+}
+.tometo{
+    position: absolute;
+    left: 65rem;
+    bottom: 8rem;
+}
+.pasta{
+    position: absolute;
+    left: 60rem;
+    top: 12rem;
+}
+/* =====================================
+  banner position section end from here.
+========================================*/
+
+
+
+/* =====================================
+  order section start from here.
+========================================*/
+.order-section{
+    width: 100%;
+    margin: 50px 0;
+    background-image: url(../img/bg_position.png);
+    height: auto;
+    background-position: center;
+    background-repeat:repeat-x;
+    /* background-attachment: fixed; */
+}
+.order-header-text h1{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 50px;
+    font-weight: 500;
+}
+.order-header-text p{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 50px;
+    font-weight: 500;
+}
+.order{
+    width: 100%;
+    padding: 70px 0;
+}
+.order-product h3{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 21px;
+}
+.order-product p{
+    font-weight: 500;
+}
+.order-product .h3{
+    padding-top: 21px;
+}
+.order-product button{
+    text-transform: uppercase;
+    border: none !important;
+    padding: 13px 28px;
+    font-weight: 700;
+    background: #ffe001;
+    transition: 0.5s;
+}
+.order-product button:hover{
+    background-color: green;
+    color: white;
+    transition: 0.5s;
+    border: none;
+}
+/* =====================================
+  slider section start from here.
+========================================*/
+.event-text h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.event-text h1{
+    font-family: 'Fredericka the Great', cursive;
+    text-transform: uppercase;
+}
+.event-text p{
+    font-family: 'Montserrat', sans-serif;
+}
+.slider{
+    margin-bottom: 20px;
+    position: relative;
+}
+.slider .owl-item.active.center .slider-card{
+    transform: scale(1.15);
+    opacity: 2;
+    background: #cc2b5e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #753a88, #cc2b5e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #753a88, #cc2b5e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+}
+.slider-card{
+    background-color: #fff;
+    margin: 50px 15px 19px 15px;
+    border-radius: 5px;
+    box-shadow: 0 15px 45px -20px rgb(236, 181, 181);
+    transform: scale(0.9);
+    opacity: 0.5;
+    transition: all 0.3s;
+}
+.slider-card img{
+    border-radius: 5px 5px 0px 0px;
+}
+.owl-nav .owl-next{
+    position: absolute;
+    top:calc(50% - 25px);
+    right: 0;
+    opacity: 1;
+    font-size: 30px !important;
+    z-index: 1;
+}
+.owl-nav .owl-prev{
+    position: absolute;
+    top:calc(50% - 25px);
+    left: 0;
+    opacity: 1;
+    font-size: 30px !important;
+    z-index: 1;
+}
+/* =====================================
+  Event section start from here.
+========================================*/
+.upcoming-event{
+    width: 100%;
+    padding: 100px 0;
+}
+.position-img{
+    position: relative;
+}
+.position-text1{
+    position: absolute;
+    top: 41px;
+    color: white;
+    left: 48px;
+}
+.position-text1 p{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.position-text1 h3{
+    font-size: 40px;
+    font-weight: 700;
+}
+.position-text2{
+    position: absolute;
+    color: white;
+    top: 15px;
+    left: 35px;
+}
+.position-text2 p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.position-text2 h4{
+    font-size: 30px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+.img-margin{
+    margin-top: 34px;
+}
+.position-text3{
+    position: absolute;
+    color: white;
+    top: 50px;
+    left: 25px;
+}
+.position-text3 p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.position-text3 h4{
+    font-size: 30px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+/* =====================================
+  form section start from here.
+========================================*/
+
+.form-table{
+    width: 100%;
+    padding-bottom: 50px;
+}
+.container-edit{
+    max-width: 960px !important;
+}
+.form-text{
+    padding: 50px 0;
+}
+.form-text h6{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    font-size: 20px;
+}
+.form-text h1{
+    font-family: 'Fredericka the Great', cursive;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-weight: 600;
+}
+.form-edit input{
+    border-radius: 5px;
+    padding: 13px 20px;
+    background: transparent;
+    margin-bottom: 25px;
+}
+.form-edit input:focus{
+    box-shadow: none;
+    border-color: #aaaaaa;
+}
+.form-edit button{
+    height: 51px;
+    width: 100%;
+    border: none;
+    background: #ffe001;
+    color: #796a01;
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+/* =====================================
+  footer section start from here.
+========================================*/
+.footer-section{
+    width: 100%;
+    background-image: url(../img/footer-bg.png);
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer-section .footer-logo{
+    margin: 40px 0;
+}
+.footer-text p{
+    padding-right: 125px;
+    color: #515152;
+}
+.footer-section .footer-info-bar i{
+    font-size: 35px;
+    color: #d5bc04;
+    text-align: right;
+}
+.footer-section .col-md-11 p{
+    font-size: 18px;
+}
+/* =====================================
+  copyright section start from here.
+========================================*/
+.copyright-section{
+    width: 100%;
+    padding: 130px 0;
+}
+.copyright-section .col-md-7 p{
+    color: #777777;
+}
+.copyright-section .col-md-5 ul li{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border: 1px solid;
+    text-align: center;
+    line-height: 40px;
+    background: white;
+    border-radius: 100%;
+    font-size: 20px;
+    margin-left: 15px;
+}
+.copyright-section .col-md-5 ul li a{
+    color: #090809 !important;
+    
+}
